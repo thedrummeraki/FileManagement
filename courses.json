@@ -1,0 +1,271 @@
+       {
+          "title": "Conférence - Stéphane Fréchette",
+          "index": 0,
+          "contents": [
+            {
+              "title": "Gatineau Ouverte",
+              "text": [
+                "C'est un mouvement social",
+                "Données ouvertes",
+                "Mission importante.",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Données ouvertes",
+              "text": [
+                "Données permettant de développer des applications par les citoyens. Données maléables publiées, transparence au niveau gouvernemental. Disponibles et gratuites.",
+                "Accesible: libre, format ouvert",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "",
+              "text": [
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sécurité, risque et l'ingénieur",
+          "index": 0,
+          "contents": [
+            {
+              "title": "Introduction",
+              "text": [
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Évaluer le risque",
+              "text": [
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Étapes de la gestion des risques",
+              "text": [
+                "1. Analyse du risque : identifier les dangers potentiels et leurs probabilités (logique, déductions, analyse mathématique)",
+                "2. Evaluation du risque : générer des actions alternatives pour réduire le risque",
+                "3. Décision : sélectionner les risqus à gérer et les actions à implanter."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Bonnes pratiques",
+              "text": [
+                "Suivre les méthodes établies pour un design et une construction sécuritaires (standards, codes ou réglèments)",
+                "Suivre les bonnes pratiques ne garantie pas la sécurité.",
+                "Suivre les bonnes pratiques représente le niveau minimum d'attention au risque (des méthodes plus avancées sont généralement requises)"
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Méthodes d'analyse",
+              "text": [
+                "Lists de vérification",
+                "Études de risques et d'opérabilité (HAZOP)",
+                "Analyse des modes de défaillance",
+                "Arbre de défaillance"
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "1- Listes de vérification",
+              "text": [
+                "Elles sont utiles lorsque le design est le successur d'un autre design dont les sources de danger ont déjà été énumérées :\n\t- les variations sont faciles à identifier\n\t- la liste doit être révisée lorsque le produit change",
+                "Elles sont basées sur l'expérience (pour les nouveaux produits, les listes devraient être complémentées par des techniques prédictives)."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Liste des catégories typiques d'une liste de vérification",
+              "text": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "2- Études de risques et d'opérabilité (HAZOP)",
+              "text": [
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Études de risques et d'opérabilité (HAZOP) - Définitions",
+              "text": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "HAZOP, un exemple : échangeur de chaleur",
+              "text": [
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "3- Analyse des modes de défaillance (FMEA)",
+              "text": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Processus FMEA (étapes)",
+              "text": [
+                "1. ",
+                "2. ",
+                "3. ",
+                "4. ",
+                "5. ",
+                "6. "
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Analyse des modes de défaillance critiques (FMECA)",
+              "text": [
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "4- Arbre de défaillance",
+              "text": [
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Evénements causés par les utilisateurs",
+              "text": [
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Sécurité de grands systèmes",
+              "text": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Risque",
+              "text": [
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Population exposée",
+              "text": [
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Coûts des événements",
+              "text": [
+                "",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            }
+          ]
+        }
