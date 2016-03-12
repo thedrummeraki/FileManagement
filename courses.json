@@ -521,7 +521,7 @@
           "index": 0,
           "contents": [
             {
-              "title": "1) Deterniming the primary functional group",
+              "title": "1) Determining the primary functional group",
               "text": [
                 "We have to determine the primary functional group of the molecule.",
                 "Let our molecule be: CH3-CH2-CH2-CH3.\n\n This molecule contains only C-C and C-H bonds and therefore does not have a functional group. It is an alkane and will have the suffix-ane.",
@@ -1147,22 +1147,6 @@
                 "3) We need to write any statements made by the Islanders as compound propositions in p and q: \nA said: \"q → ¬p\".\n\nLet us observe that p and q → ¬p must have the same truth value.\nOur truth table will look like the following...:\n\nLet A = q → ¬p. Note that since A and B are either both knights or both knaves, only the following two rows are needed:\np - q - A\nT - T - F\nF - F - T\n\nObserve that the truth values of p and q → ¬p do not agree in either of the two cases. We conclude that (with the assumption that A and B are either both knights or both knaves) no Islander would make such a claim.",
                 "--------------------------------------------",
                 "4) We need to write any statements made by the Islanders as compound propositions in p and q: \nA said: \"p ∧ q\".\nB said: \"p ⊕ q\" or \"¬(p ↔ q)\"\n\nLet us observe that p and p ∧ q must have the same truth value, as well as q and p ⊕ q.\nConstruct a truth table for p ∧ q and p ⊕ q. Compare the truth values of p and p ∧ q, as well as q and p ⊕ q:\n\nLet A = p ∧ q and B = p ⊕ q\n# - p - q - A - B\n1 - T - T - T - F\n2 - T - F - F - T\n3 - F - T - F - T\n4 - F - F - F - F\n\nObserve that the truth values of p and p∧q agree in rows 1, 3, and 4, and the truth values of q and p ⊕ q agree in rows 3 and 4. Hence both pairs agree in rows 3 and 4, that is, when p is false and q is either true or false. We conclude that A must be a knave, while the identity of person B can not be determined.",
-                ""
-              ],
-              "illustrations": [
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "title": "DNF",
-          "index": 0,
-          "contents": [
-            {
-              "title": "",
-              "text": [
-                "",
                 ""
               ],
               "illustrations": [
@@ -2604,7 +2588,7 @@
               ]
             },
             {
-              "title": "Allocation des ressources, Points à considérer",
+              "title": "Allocation des ressources - Points à considérer",
               "text": [
                 "Disponibilité",
                 "Talents",
