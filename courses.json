@@ -4175,6 +4175,36 @@
       ]
     },
     {
+      "title": "CHUO 89.1 FM",
+      "code": "CHUO",
+      "language": "en",
+      "description": "Ottawa's Independant and Community Radio Station",
+      "chapters": [
+        {
+          "title": "Editing Repeat Broadcasts",
+          "index": 0,
+          "contents": [
+            {
+              "title": "",
+              "text": [
+                "Go to AudioLogs",
+                "Select show by date and Add logs to Audition",
+                "Select repeat broadcasts intro and outro samples (3 intro + 1 outro for 1 hour)",
+                "Remove advertisements",
+                "Remove unrelated spoken word sections (ie: the time, the weather, past events, etc.)",
+                "Go to \"Multitrack\" in Audition and add the intro/outro samples.",
+                "Save using the CHUO repeat broadcast convention (ie: \"CLICK HERE - Mar 9 - PT 1\"",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            }  
+          ]
+        }
+      ]
+    },
+    {
       "title": "COOP #932",
       "code": "SEG2901",
       "language":"bilingual_en_fr",
