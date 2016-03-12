@@ -1871,7 +1871,20 @@
           "index": 0,
           "contents": [
             {
-              "title": "",
+              "title": "Question 1",
+              "text": [
+                "A binary relation R is defined on the set Z² as follows:",
+                "\t\t\t(a,b) R (c,d) <-> a == c (mod 2) and b == d (mod 3)",
+                "(a) Prove that R in an equivalence relation on Z².",
+                "(b) Determine the equivalence class of (1,2) with respect to R. DESCRIBE IT AS PRECISELY AS POSSIBLE.",
+                "(c) How many distinct equivalence classes with respect to R are there in total? BRIEFLY JUSTIFY YOUR ANSWER."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Question 2",
               "text": [
                 "",
                 ""
