@@ -1886,8 +1886,10 @@
             {
               "title": "Question 2",
               "text": [
-                "",
-                ""
+                "Let A = {a1,a2,a3,a4}.",
+                "Let B = {b1,b2,b3,b4,b5}.",
+                "This makes |A|=4 and |B|=5",
+                "How many injective functions f : A→B satisty f(a1) = b1 (INCLUSIVE OR) f(a2) = b2?"
               ],
               "illustrations": [
                 ""
