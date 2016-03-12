@@ -1,4 +1,4 @@
-{
+﻿{
   "courses": [
     {
       "title": "Organic chemistry",
@@ -1974,7 +1974,7 @@
             {
               "title": "Professions reconnues - \"Professions reconnues par la loi sans permis ou prérequis\"",
               "text": [
-                "Au Canada, il exist CIPS et EATI.",
+                "Au Canada, il existe CIPS et EATI.",
                 "CIPS = Canadian Information Processing Society.",
                 "EATI = Expert agréé en technologies del'information."
               ],
