@@ -4557,6 +4557,117 @@
           ]
         }
       ]
-    }
+    },
+    {
+	"title": "Ruby on Rails Tutor(ails)",
+	"code": "RORTUT",
+	"language": "en",
+	"description": "Ruby on Rails",
+	"chapters": [
+		{
+			"title": "Introduction to Ruby on Rails and Environment setup",
+			"index": 0,
+			"contents": [
+				{
+					"title": "What is the Ruby on Rails (ROR)?",
+					"text": [
+						"(according to TutoRails)",
+						"ROR is a framework, which is a collection of reusable classes.",
+						"More specifically, it is a web framework, which is a framework designed to make web coding easy.",
+						"It uses Ruby, a powerful Object-Oriented programming language."
+					],
+					"illustrations": [
+						""
+					]
+				},
+				{
+					"title": "General Ruby characteristics and OOP",
+					"text": [
+						"Object-Oriented Programming language.",
+						"The programming language uses objects to store data.",
+						"Each object is defined by a class.",
+						"Objects can have fields (attributes). This is comparable to a Person having a Name or an Age.",
+						"Objects may have methods. These can be seen as actions made by the object or for the object. This is comparable to a Person returning its Age or changing its name.",
+						"Methods may have parameters. These parameters help determine the action of the method, help the method proceed with its action or even determine the action using boolean conditions (true or false)",
+						"Exemple of a method in Ruby:\ndef method_name(param)\n\t\t\tputs \"I am a method and I have a parameter: \"+param\nend",
+						"The method above is called \"method_name\". It has one parameter and it is called \"param\". The method has one action and it consists in printing to the console \"I am a methods and I have a parameter:\" with whichever parameter was passed along.",
+						""
+					],
+					"illustrations": [
+						""
+					]
+				},
+				{
+					"title": "Web requests",
+					"text": [
+						"A browser (Chrome, Firefox, Opera, Konq, Safari, etc.) can open HTML files. As the file is being opened, the browser parses the information (takes the info and converts it into a readable form) and renders it on the screen.",
+						"Web = Request + Response.",
+						"A request...:\nCan have a type (GET, POST, PUT, PATCH, DELETE)\nAre initiated by various user actions (typing a URL/clicking on a link/submitting a form)\nCan carry a payload a data (huh???)"
+					],
+					"illustrations": [
+						""
+					]
+				},
+				{
+					"title": "Environment setup",
+					"text": [
+						"Download and install \"Virtual Box\". Download and install \"Vagrant\".",
+						"http://www.virtualbox.com",
+						"http://www.vagrantup.com/download.html",
+						"These downloads are necessary if Mac or Windows is your operating system. If you are using Ubuntu, there is no need.",
+						"Create a project folder in which you will be working from:\nUbuntu and MAC: \"~/dev/rails_projects/tutorails/\"\nWindows: \"C:\\dev\\rails_projects\\tutorails\"",
+						"(ON WINDOWS) Open the terminal (press WINDOWS+R and type \"cmd\" and hit Enter) and CD to your working directory:\n\t\t\tie: type \"cd C:\\dev\\rails_projects\\tutorails\"",
+						"(ON MAC OR UBUNTU) Open the terminal and CD to your working directory:\n\t\t\tie: type \"cd ~/dev/rails_projects/tutorails/\"",
+						"(ON WINDOWS and MAC) Do the following Vagrant steps:
+				\nType \"vagrant box add hashicorp/precise32\" (it is installs a minimal Ubuntu distribution)
+				\nType \"vagrant init\" (creates the Vagrantfile)
+				\nReplace the Vagrantfile from the following download link (https://goo.gl/2Xn5KV).
+				\nPlace the following download link (https://goo.gl/70WNyh) next to your Vagrantfile.
+				\n(ON UBUNTU) Since not Vagrantfile is needed, download the script file from https://goo.gl/70WNyh and copy every command to a new file called rails_setup.sh. BUT YOU NEED TO OMIT ALL LINES STARTING WITH \"su - vagrant -c \'\" and therefore need to get rid of the last \'. Make your sh file executable by Right-clicking on the file, select \"Properties\" and go to \"Permissions\". Enable \"Allow file execution as a program\". Open your terminal and CD to your project. Type \"./rails_setup.sh\". Close your terminal, open the rails_setup.sh file and place a \"#\" in front of the first seven commands. Open the terminal at the same location and run the rails_setup.sh file. You are done setting up your environment.
+				\n(ON WINDOWS) If not SSH client is installed (ie: Git Bash), install one from https://git-scm.com/downloads. Make sure you install BOTH Git Bash AND SSH. Once Git Bash is installed, CD into your project location (just like you did with the terminal)
+				\nType \"vagrant up\" to test your virtual machine. This might take a while.",
+						"",
+						""
+					],
+					"illustrations": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"title": "Ruby on Rails Routing and Server side pages",
+			"index": 0,
+			"contents": [
+				{
+					"title": "",
+					"text": [
+						"",
+						""
+					],
+					"illustrations": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"title": "Introduction to SQL databases",
+			"index": 0,
+			"contents": [
+				{
+					"title": "",
+					"text": [
+						"",
+						""
+					],
+					"illustrations": [
+						""
+					]
+				}
+			]
+		}
+	]
+}
   ]
 }
