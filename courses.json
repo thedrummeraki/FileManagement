@@ -1825,7 +1825,24 @@
 				"title": "What if m were larger than n?",
 				"text": [
 					"If m>n, then there is no injection f:A->B.",
-					"Theorem: Let |A| = m, |B| = n.\n\t1) There exists at least on injection f:A->B if and only if m <= n.\n\t2) There exists at least one surjection f:A->B if and only if ",
+					"Theorem: Let |A| = m, |B| = n.\n\t1) There exists at least on injection f:A->B if and only if m <= n.\n\t2) There exists at least one surjection f:A->B if and only if m >= n.\n\t 3) There exists at least one bijection f:A->B if and only if a = b.",
+					"If m = n, then every injection is a bijection. There are n! of them.\n\n(# sujections ? HARD)"
+				],
+				"illustrations": [
+					""
+				]
+			}
+		]
+	},
+    	{
+		"title": "Counting (R 6.1)",
+		"index": 0,
+		"contents": [
+			{
+				"title": "Product Rule",
+				"text": [
+					"",
+					"",
 					""
 				],
 				"illustrations": [
