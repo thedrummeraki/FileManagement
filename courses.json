@@ -1773,6 +1773,207 @@
             }
           ]
         },
+            {
+		"title": "Relations (continuation)",
+		"index": 0,
+		"contents": [
+			{
+				"title": "Recall...",
+				"text": [
+					"If |A| = m and |B| = n...",
+                    "thn AxB = {(a,b) : a∈A and b∈B}",
+					"and |AxB| = mn."
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "A relation from A to B",
+				"text": [
+					"A relation from A to B is an arbitrary subset of AxB, ie: an element of |P(AxB) (|P is power set), which has 2^(mn) elements.",
+					"So there are 2^(mn) relations from A to B."
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "How many functions from A to B?",
+				"text": [
+					"For every a∈A, there are n possible values of f(a), so there are {n*n*...*n} (m times) = n^m possibilities.",
+					"So there are n^m functions from A to B."
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "How many injections from A to B?",
+				"text": [
+					"Eg: A = {1,2} | B = {1,2,3}",
+					"There are 3 possible values on f(1).",
+					"ONCE THAT IS CHOSEN, there are only 2 possible values of f(2) that are not equal to f(1).",
+					"So: 3*2 = 6 possible functions.",
+                    "In general (|A| = m, |B| = n),\nn*(n-1)*(n-2)*...*(n-m+1) = (n)!/(n-m)! is the number of injections f:A->B"
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "What if m were larger than n?",
+				"text": [
+					"If m>n, then there is no injection f:A->B.",
+					"Theorem: Let |A| = m, |B| = n.\n\t1) There exists at least on injection f:A->B if and only if m <= n.\n\t2) There exists at least one surjection f:A->B if and only if ",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			}
+		]
+	}    {
+		"title": "Relations (continuation)",
+		"index": 0,
+		"contents": [
+			{
+				"title": "Recall...",
+				"text": [
+					"If |A| = m and |B| = n...",
+                    "thn AxB = {(a,b) : a∈A and b∈B}",
+					"and |AxB| = mn."
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "A relation from A to B",
+				"text": [
+					"A relation from A to B is an arbitrary subset of AxB, ie: an element of |P(AxB) (|P is power set), which has 2^(mn) elements.",
+					"So there are 2^(mn) relations from A to B."
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "How many functions from A to B?",
+				"text": [
+					"For every a∈A, there are n possible values of f(a), so there are {n*n*...*n} (m times) = n^m possibilities.",
+					"So there are n^m functions from A to B."
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "How many injections from A to B?",
+				"text": [
+					"Eg: A = {1,2} | B = {1,2,3}",
+					"There are 3 possible values on f(1).",
+					"ONCE THAT IS CHOSEN, there are only 2 possible values of f(2) that are not equal to f(1).",
+					"So: 3*2 = 6 possible functions.",
+                    "In general (|A| = m, |B| = n),\nn*(n-1)*(n-2)*...*(n-m+1) = (n)!/(n-m)! is the number of injections f:A->B"
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "What if m were larger than n?",
+				"text": [
+					"If m>n, then there is no injection f:A->B.",
+					"Theorem: Let |A| = m, |B| = n.\n\t1) There exists at least on injection f:A->B if and only if m <= n.\n\t2) There exists at least one surjection f:A->B if and only if ",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "",
+				"text": [
+					"",
+					""
+				],
+				"illustrations": [
+					""
+				]
+			}
+		]
+	}
         {
           "title": "ASSIGNMENT 4 (FEB 25, 2016)",
           "index": 0,
