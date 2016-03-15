@@ -4731,7 +4731,7 @@
 					"text": [
 						"Download and install \"Virtual Box\". Download and install \"Vagrant\".",
 						"http://www.virtualbox.com",
-						"http://www.vagrantup.com/download.html",
+						"http://www.vagrantup.com/downloads.html",
 						"These downloads are necessary if Mac or Windows is your operating system. If you are using Ubuntu, there is no need.",
 						"Create a project folder in which you will be working from:\nUbuntu and MAC: \"~/dev/rails_projects/tutorails/\"\nWindows: \"C:\\dev\\rails_projects\\tutorails\"",
 						"(ON WINDOWS) Open the terminal (press WINDOWS+R and type \"cmd\" and hit Enter) and CD to your working directory:\n\t\t\tie: type \"cd C:\\dev\\rails_projects\\tutorails\"",
