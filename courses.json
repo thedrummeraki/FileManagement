@@ -1773,7 +1773,7 @@
             }
           ]
         },
-        {
+            {
 		"title": "Relations (continuation)",
 		"index": 0,
 		"contents": [
@@ -1834,15 +1834,27 @@
 			}
 		]
 	},
-    	{
-		"title": "Counting (R 6.1)",
+    {
+		"title": "Counting (Rosen 6.1)",
 		"index": 0,
 		"contents": [
 			{
 				"title": "Product Rule",
 				"text": [
-					"",
-					"",
+					"If a procedure consists of K tasks, [T1, T2,..., Tk] and...:\n  -there are n1 ways to do T1;\n  -there are always nk ways to do Tk AFTER [T1, T2,..., T(k-1)] ARE DONE then there are [n1, n2,..., nk] ways to do the whole procedure.",
+					"Eg: \"How many many are there to assign 3 people (P1, P2, P3) to 4 desks?\".\n\n(assume everyone gets one desk and no-one shares)\n\nSolution:\n\t- T1: Assign P1 to a desk. n1 = 4.\n\t- T2: Assigne P2 to a desk. n2 = 3.\n\t- T3: Assign P3 to a desk. n3 = 2.\n\nAnswer: So there are 4*3*2 = 24 ways.",
+                    "Note: If A = {a1,...,am},\nLet Ti be the task of assigning a value (from B) to f(ai). for (i=1,...m) ?????",
+                    "If |B| = n and f must be injective, then [n1 = n, n2 = n-1,..., n_m = n-m+1] (assume m <= n).",
+					"So the total number of injection f:A->B is n1*n2*...*n_m = (n)!/(n-m)!"
+				],
+				"illustrations": [
+					""
+				]
+			},
+            {
+				"title": "Another example for Product Rule",
+				"text": [
+					"Eg: How many bit strings of length 7 are there that start with \"11\" (eg: 1100100 where 11 is fixed and 00100 varies.)?\n\nSolution:\nFor each of the remaining 5 digits, we have 2 choices (they are independant of one another). So there are 5 tasks, T1,...,T5, each of which can be done in 2 ways: n1=n2=...=n5 = 2.\nAnswer: 2^5 = 32.",
 					""
 				],
 				"illustrations": [
@@ -1850,40 +1862,21 @@
 				]
 			},
             {
-				"title": "",
+				"title": "Sum Rule",
 				"text": [
-					"",
-					""
+					"If a task can be done EITHER in n1 ways OR in n2 ways (exclusive or), then there are n1+n2 ways to do it (similar principle to the union of disjoint sets).",
+					"Eg: How many computer passwords are there of length 6 or 7, where each character is EITHER a lower-case letter OR a digit (exclusive or)?\nSolution:\nThere are (26+10)^6 passwords of length 6, and 36^7 passwords of length 7. So in total there are (36)^6 + (36)^7."
 				],
 				"illustrations": [
 					""
 				]
 			},
             {
-				"title": "",
+				"title": "Principle of Inclusion-Exclusion (PIE)",
 				"text": [
-					"",
-					""
-				],
-				"illustrations": [
-					""
-				]
-			},
-            {
-				"title": "",
-				"text": [
-					"",
-					""
-				],
-				"illustrations": [
-					""
-				]
-			},
-            {
-				"title": "",
-				"text": [
-					"",
-					""
+                    "Eg: How many strings of 5 lower-case letters start with an \"a\" or end with a \"z\"? (inclusive or)\nSolution:\nThere are 26^4 strings that start with \"a\" (eg: a (b)(b)(c)(d) 26*26*26*26*26). There are 26^4 strings that end in z.\nBUT, there is an overlap, eg: (a)bbb(z). These have been counted twice! There are 26*26*26 (for each letter different than \"a\" and \"z\"). So there are 26^3 strings that start with \"a\" and end with \"z\". So the final answer is (26^4)+(26^4)-(26^3) (make a Venn diagram)",
+					"If a task can be done in either n1 ways (method 1) or n2 ways (method 2), then the number of ways to do the tasks is : n1+n2 - (the number of ways common to both methods).",
+                    "This is also known as the \"Subtraction rule\"."
 				],
 				"illustrations": [
 					""
@@ -4330,7 +4323,17 @@
               "illustrations": [
                 ""
               ]
-            }  
+            },
+            {
+            	"title": "",
+            	"text": [
+            	  "",
+            	  ""
+            	],
+            	"illustrations": [
+            	  ""
+            	]
+            }
           ]
         }
       ]
