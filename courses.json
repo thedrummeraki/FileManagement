@@ -3689,6 +3689,220 @@
           ]
         },
         {
+          "title": "Chapitre 5 - L'analyse de la valeur actualisée",
+          "index": 0,
+          "contents": [
+            {
+              "title": "Introduction",
+              "text": [
+                "Un montant d'argent futur converti à une valeur d'aujourd'hui possède une valeur actualisée (VA) qui est toujours inférieure à ses flux monétaires, car pour n'importe quel taux d'intérêt supérieur à 0 les facteurs A/F ont toujours une valeur inférieure à 1,0.",
+                "Pour cette raison, on nomme « valeur actualisée (VA) » les « flux monétaires actualisés ».",
+                "De la même manière, le taux d'intérêt utilisé pour ce calcul est aussi appelé « taux d'actualisation ».",
+                "Dans le tableur Excel la fonction VA désigne la valeur actualisée.",
+                "La valeur actualisée nette (VAN) correspond à la différence entre les bénéfices (FM +) et les charges (FM -).",
+                "Jusqu'à présent, on a effectué le calcul de la valeur actualisée pour un projet ou une solution. ",
+                "On présente ici certaines techniques servant à comparer plusieurs solutions mutuellement exclusives à l’aide de la méthode d'analyse de la valeur actualisée. ",
+                "D'autres techniques constituent une extension à l'analyse de la valeur actualisée et ils sont traités dans le présent chapitre.\n\t- La valeur capitalisée (VC)\n\t- Le coût immobilisée (CI)\n\t- Le délai de récupération\n\t- Le coût de cycle de vie\n\t- Les obligations",
+                "Tous ces éléments sont analysés en fonction de la valeur actualisée en vue de choisir les solutions appropriées. ",
+                "Afin de mieux décrire la structure d'une analyse économique, les projets indépendants et les projets mutuellement exclusifs sont décrits, et les solutions possibles en ce qui a trait aux revenus et aux services sont définies.",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.1 La formulation des solutions mutuellement exclusives",
+              "text": [
+                "Les propositions de projets sont les précurseurs des solutions économiques qu’il faudra évaluer.",
+                "Pour formuler ces solutions, il faut d’abord déterminer la catégorie à laquelle elles appartiennent. ",
+                "SOLUTIONS MUTUELLEMENT EXCLUSIVES : Choix d’une seule solution parmi l’ensemble des solutions possibles. Solutions mutuellement exclusives entrant en compétition les unes avec les autres.",
+                "PROJETS INDÉPENDANTS : Choix de toutes les solutions possibles pouvant être financées pendant une période déterminée.",
+                "SOLUTION DU STATU QUO (SQ) : Dois toujours faire partie des solutions envisagées.",
+                "Toutes les solutions possibles sont envisagées dans le contexte d’une étude économique d’ingénierie doivent être du même type.",
+                "REVENU : Chaque solution comporte une estimation des flux monétaires des charges (décaissement) et des revenus (encaissement), et possiblement des économies (qui sont traitées comme des revenus ou bénéfices).",
+                "SERVICE : Chaque estimation comporte uniquement une estimation des flux monétaires des charges. Les revenus ou les économies ne dépendent pas de la solution choisie, et ces flux monétaires sont aussi considérés comme égaux."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.2 Analyse de la valeur actualisée appliquée à des solutions de durées égales",
+              "text": [
+                "Au cours de l’analyse de la valeur actualisée, la valeur P, maintenant nommée « valeur actualisée » est calculée à partir du taux de rendement acceptable minimum (TRAM) de chacune des solutions proposées.",
+                "Cette méthode présente l’avantage de transformer les estimations des charges et des revenus futurs en dollars équivalents d’aujourd’hui.",
+                "Lorsque des solutions MUTUELLEMENT EXCLUSIVES comportent uniquement des décaissements (service) ou des encaissements et des décaissements (revenus), les règles suivantes doivent s’appliquer au choix de l’une des solutions.",
+                "*** Une solution: Calculer la valeur actualisée selon le taux de rendement acceptable minimum. Si VA >= 0, le taux de rendement acceptable minimum est atteint ou dépassé, et la solution est considérée comme financièrement viable.\n\nDeux solutions ou plus: Calculer la valeur actualisée selon le taux de rendement acceptable minimum pour chacune des solutions. Choisir la solution qui comporte la valeur actualisée plus basse pour les flux monétaires des charges ou une valeur actualisée plus grande pour les flux monétaires nets des encaissements moins les décaissements. ***",
+                "Pour les solutions à service égal, toutes les solutions possibles sont évaluées pour le même nombre d’années.",
+                "S’il s’agit d’un seul projet, il est viable financièrement si VA >= 0 au TRAM établi.",
+                "S’il y a deux solutions possibles ou plus, choisir celle qui présente la VA la plus élevée. ",
+                "S’il s’agit de projets indépendants, on optera pour les critères de sélection suivants : ",
+                "\"En présence d'un ou de plusieurs projets indépendants, il faut choisir tous les projets de VA >= 0 au taux de rendement acceptable minimum.\"",
+                "Dans cette démarche, chaque projet est comparé à la solution du statu quo. ",
+                "La somme des F.M. de chaque projet doit produire une VA > 0. Autrement dit, chaque projet doit engendrer des bénéfices pour l’entreprise. "
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Exemple : Projets indépendants",
+              "text": [
+                "S’il s’agit de projets indépendants, on optera pour les critères de sélection suivants :",
+                "DONNEES :
+                		  \nn ------ A ------ B ------ C ------ D
+                		  \n0 ---- -2500 -- -1000 --- 2500 -- -3000
+                		  \n1 ----- 5400 -- -3000 -- -7500 --- 1500
+                		  \n2 ---- 14400 --- 1000 --- 2000 --- 5500
+                		  \n2 ----- 7200 --- 3000 --- 4000 --- 6500
+                		  ",
+                "Calculez la VAN de chacun des projets pour un TRAM = 13%.",
+                "Calculez la VC de chacun des projets pour un TRAM = 13%.",
+                "Notez que les vies sont égales.  "
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "Solution de l'Exemple précédent",
+              "text": [
+                "",
+                "",
+                "",
+                "(suite)",
+                "",
+                "",
+                "",
+                "",
+                "Conclusion : "
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.3 Analyse de la valeur actualisée à des solutions de durées différentes",
+              "text": [
+                "La règle est la suivante pour des solutions de durées différentes :",
+                "\"La valeur actualisée des solutions possibles doit être comparée pour un nombre d'années égal et une même date d'échéance.\"",
+                "Le critère de peut être respecté dans l’une des deux approches suivantes :\n\t- PPCM: Comparaison des solutions sur une période de temps correspondant au plus petit commun multiple de leur durée (pour des durées de 4 et de 6 ans, utiliser n = 12) et utiliser le réinvestissement selon les mêmes estimations de flux monétaires.\n\t- PÉRIODE D'ÉTUDE: Comparaison des solutions basée sur une période d’étude (horizon de planification) d’une durée de n années, qui ne tient pas nécessairement compte de la durée de vie utile des solutions possibles.",
+                "Dans les deux cas, la V.A. de chaque solution est calculée au TRAM, et les critères de sélection sont les mêmes que pour les solutions d’égale durée.",
+                "Dans le cas du PPCM, il faut poser certaines hypothèses sur les cycles de vie qui suivront les solutions analysées.",
+                "Voici les hypothèses posées dans l'analyse de la valeur actualisée pour des solutions de durée différentes, avec la méthode du plus petit commun multiple: \n\t 1) Le service fourni dans les solutoins sera requis pour une durée correspondant au plus petit commun multiple.\n\t 2) La solution choisie sera répétée de la même manière et à chaque cycle de vie pour la durée correspondant au plus petit commun multiple.\n\t 3) Les estimations de flux monétaires seront les mêmes pour chaque cycle de vie",
+                "La 3e hypothèse ne sera valable que si la variation des flux monétaires correspond exactement au taux d’inflation en vigueur pendant la période du PPCM (Voir Chap 14). ",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.4 L’analyse de la valeur capitalisée",
+              "text": [
+                "Dans certaines applications, on préfère effectuer une analyse de la valeur capitalisée. (F/P; i%; n).",
+                "La valeur n dans le facteur F/P...\n\t- Dépend de la période de temps utilisée pour déterminer la V.A. pour des solutions possibles à service égal ; ou\n\t- Dépend de la période de temps utilisée pour déterminer le PPCM des durées ; ou\n\t- Dépend de la période de temps de la période définie.",
+                "L’analyse de la VC est souvent utilisée lorsque les immobilisations (équipement, édifices, etc.) peuvent être vendues ou échangées après leur acquisition ou leur démarrage, mais avant d’avoir atteint la fin de leur durée estimée.",
+                "Le calcul de la VC effectué durant une vie intermédiaire permet d’estimer la valeur d’une solution au moment de la vendre ou de l’éliminer.",
+                "Cette méthode s’applique bien aux projets dont la mise sur pied ne sera réalisée qu’à la fin de la période d’investissement.",
+                "Après avoir déterminé la VC, les critères de sélection sont les mêmes que ceux de la VA : VC > ou = 0 signifie que le TRAM a été atteint ou dépassé. "
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.4 Exemple : VC",
+              "text": [
+                "Deux stratégies d’investissement sont à l’étude pour connaître lequel permettra d’accumuler le plus gros fonds de retraite.",
+                "Plan A : On dépose 10 000$ aujourd’hui et ensuite 2000 $ /an pendant 20 ans.",
+                "Plan B : On dépose 3000 $ /an pendant 20 ans",
+                "TRAM = 10%",
+                "Plus intuitif d’utiliser VC pour les calculs.",
+                "VCA = 10000(F/P;10%;20) + 2000(F/A;10%;20) = 182 825$",
+                "VCB = 3000(F/A;10%;20) = 171 825$",
+                "\t\t DONC : Plan A est la meilleure stratégie."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.5 L’analyse et le calcul du coût immobilisé",
+              "text": [
+                "Le coût immobilisé (CI) correspond à la valeur actualisée d’une solution qui durera indéfiniment.\nPonts\nBarrages\nChemins de fer",
+                "Méthode d’analyse recommandée pour les projets du gouvernement et du secteur public",
+                "Elle est dérivée cette équation du CI de la relation",
+                "P = A(P/A; i; n) pour n = ∞.",
+                "Le facteur P/A est : P = A[((1+i)^n-1)/(i*(1+i)^n)]",
+                "À droite, on divise le numérateur et le dénominateur par (1+i)n →→ P = A[(1-(1/(1+i)^n))/(i)]",
+                "Si n → ∞, l’équation ci-dessus se réduit à →→ P = A/i",
+                "CI remplace P et VA, et représente le « coût immobilisé » →→ CI = A/i",
+                "Si A est une annuité équivalente déterminée par des calculs d’équivalence… : CI = (AÉ)/i",
+                "MONTANT ANNUEL POUR TOUJOURS : A = Pi = (CI)",
+                "Lorsque n tend vers ∞, le terme entre crochets devient 1/n et le symbole CI remplace VA et P.",
+                "Par exemple, si une somme de 10000$ rapporte un intérêt de 10%/an, le montant maximal qui peut être retiré chaque année pour l’éternité est de 1000$.",
+                "A = CI x i = 10000$ x 0,10 = 1000$"
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.6 L’analyse du délai de récupération",
+              "text": [
+                "Un prolongement de la méthode d’analyse de la valeur actualisée.",
+                "Deux formes :\n\t - Sans intérêt : i = 0 % (délai de récupération sans rendement)\n\t - Avec taux d’intérêt estimé : i > 0 % (délai de récupération actualisé)",
+                "Technique : on estime le temps np nécessaire pour récupérer l’investissement initial dans un projet, avec ou sans revenus d’intérêt.",
+                "L’analyse du délai de récupération ne doit jamais servir de méthode principale pour justifier le choix ou le rejet d’une solution.\n\t- On l’utilise surtout comme outil d’analyse préliminaire\n\t- À l’origine, cette méthode était utilisée comme outil d’analyse primaire et entraînait plusieurs erreurs de sélection\n\t- \n\t- Pour pouvoir appliquer cette méthode, la séquence des flux monétaires doit comporter au moins une valeur (+)\"Le délai de récupération np ne doit jamais constituer la mesure principale de la valeur en vue du choix d'une solution. Il faut plutôt faire appel à ce concept pour procéder à une première élimination ou encore pour utiliser comme information complémentaire à l'analyse de la valeur actualisée ou à une autre méthode.\"",
+                "On détermine le nombre d’années np nécessaires pour que tous les flux monétaires négatifs nets soient exactement équivalents à tous les flux monétaires positifs :",
+                "0 = -P + (t=np)SOMME(t=1) NCFt (P/F, i%, t).",
+                "Si i = 0 % et que toutes les estimations des FMN sont les mêmes, le calcul du délai de récupération est simplifié à :",
+                "np = P/F MN",
+                "Selon une philosophie de gestion courante, les délais de récupération plus courts sont préférables aux délais plus longs. Ce raisonnement n’est pas pertinent dans le cas d’une analyse économique fiable.",
+                "Cette méthode d’analyse néglige tous les flux monétaires survenant après le délai de récupération.",
+                "Cette méthode n’utilise pas toujours tous les flux monétaires présents dans la série.",
+                "\"Le recours à la méthode du délai de récupération sans rendement est inapproprié lorsqu'on procède au choix final d'une solution pour les raisons suivantes : \n\t 1) Cette méthode ne tient pas compte du taux de rendement requis, puisque la valeur temporelle de l'argent n'est pas considérée.\n\t 2) Cette méthode ne tient pas compte de tous les flux monétaires nets après une période de temps np, y compris les flux monétaires positifs qui pourraient contribuer au rendement du capital investi.\""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.8 La VA des obligations",
+              "text": [
+                "Valeurs nominales habituelles : 1000$, 5000$ ou de 10000$.",
+                "L’intérêt I, appelé « dividendes sous forme d’obligation » est versé périodiquement entre le moment de l’emprunt et le moment du remboursement de la valeur nominale.",
+                "L’intérêt est payé m fois par année (habituellement trimestriels ou semestriels, et leur montant est déterminé à partir d’un taux défini, appelé « taux d’intérêt nominal b ».",
+                "I = ((valeur nominale)(taux d'intérêt nominal))/(nombre de versements par année) ===> I = ((V)(B))/m",
+                "La méthode d’analyse de la valeur actualisée permet également de calculer la valeur actualisée d’une obligation.",
+                "Lorsqu’une obligation est émise, les acheteurs potentiels peuvent déterminer ce qu’ils accepteront de payer en ce qui concerne la valeur actualisée pour une obligation de valeur nominale définie.",
+                "Le prix payé détermine le taux de rendement de l’obligation pour le reste de sa durée de vie.",
+                "\"Voir p. 172 du manuel pour les étapes servant à calculer la VA d’une obligation.\"",
+                "Si VA ≥ prix d’achat, le TRAM est atteint ou dépassé, acheter l’obligation.",
+                "Si VA < prix d’achat, le TRAM n’est pas atteint ou dépassé, ne pas acheter l’obligation.",
+                "La méthode d’analyse de la V.A. permet également de calculer la valeur actualisée d’une obligation."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "5.8 Exemple : obligations",
+              "text": [
+                "Pour calculer le prix d’aujourd’hui d’une obligation, il s’agit de faire la somme de sa valeur nominale (une valeur dans le futur où F = l’échéance) et les dividendes sous forme d’obligation (une annuité) en utilisant un taux d’intérêt approprié (taux d’actualisation).",
+                "Exemple : Le taux d’intérêt du marché est de 12% composé semestriellement. Quel est le prix aujourd’hui d’une obligation dont sa valeur nominale est de 5000$, l’échéance est dans 15 ans et les dividendes sous forme d’obligation est de 7% par année payable semestriellement ?",
+                "P = 5000(P/F; 6%; 30) + (5000 x 0,07/2)(P/A;6%;30)",
+                "P = 3279.43$"
+              ],
+              "illustrations": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "title": "Liste de définitions - Chapitre 1",
           "index": 0,
           "contents": [
