@@ -3688,7 +3688,7 @@
             }
           ]
         },
-        {
+	{
           "title": "Chapitre 5 - L'analyse de la valeur actualisée",
           "index": 0,
           "contents": [
@@ -3702,7 +3702,7 @@
                 "La valeur actualisée nette (VAN) correspond à la différence entre les bénéfices (FM +) et les charges (FM -).",
                 "Jusqu'à présent, on a effectué le calcul de la valeur actualisée pour un projet ou une solution. ",
                 "On présente ici certaines techniques servant à comparer plusieurs solutions mutuellement exclusives à l’aide de la méthode d'analyse de la valeur actualisée. ",
-                "D'autres techniques constituent une extension à l'analyse de la valeur actualisée et ils sont traités dans le présent chapitre.\n\t- La valeur capitalisée (VC)\n\t- Le coût immobilisée (CI)\n\t- Le délai de récupération\n\t- Le coût de cycle de vie\n\t- Les obligations",
+                "D'autres techniques constituent une extension à l'analyse de la valeur actualisée et ils sont traités dans le présent chapitre.\n\t- \n\t- \n\t- \n\t- La valeur capitalisée (VC)\n\t- Le coût immobilisée (CI)\n\t- Le délai de récupération\n\t- Le coût de cycle de vie\n\t- Les obligations",
                 "Tous ces éléments sont analysés en fonction de la valeur actualisée en vue de choisir les solutions appropriées. ",
                 "Afin de mieux décrire la structure d'une analyse économique, les projets indépendants et les projets mutuellement exclusifs sont décrits, et les solutions possibles en ce qui a trait aux revenus et aux services sont définies.",
                 ""
@@ -3900,8 +3900,198 @@
                 ""
               ]
             }
-          ]
-        },
+          ]},
+        {
+          "title": "Chapitre 6 - L'analyse de l'annuité équivalente",
+          "index": 0,
+          "contents": [
+            {
+              "title": "Introduction",
+              "text": [
+                "Un nouvel outil pour comparer les solutions possibles: AÉ.",
+                "Parfois préféré à la VA;parce que les calculs sont plus facile à effectuer."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "6.1 L’analyse de l’AÉ – avantages et applications",
+              "text": [
+                "Facile à comprendre : les résultats sont exprimés en $ par période de temps;normalement en $ par année.",
+                "Évite le recours au PPCM;utilisé dans la méthode de la valeur actualisée.",
+                "Il suffit d’évaluer un seul cycle de vie.",
+                "i = TRAM",
+                "AÉ = VA(A/P, i, n) = VC(A/F, i, n)",
+                "La valeur n désigne le nombre d’années utilisé pour la comparaison entre les solutions comportant un service équivalent.",
+                "Elle correspond au PPCM ou à la période d’étude déterminé pour l’analyse de la VA ou la VC.",
+                "La valeur de l'annuité équivalente doit être calculée pour un seul cycle de vie. Par conséquent, il n'est pas nécessaire d'utiliser le plus petit commun multiple des durée de vie, comme dans le cas des analyses de la valeur actualisée et de la valeur capitalisée.",
+                "En déterminant l’annuité équivalente sur un cycle de vie pour une solution;on détermine l’annuité équivalente l’annuité équivalente de tous les cycles à venir",
+                "Comme dans la cas de l’analyse de la valeur actualisée;la méthode de l’annuité équivalente repose sur trois hypothèse :",
+                "Lorsue des solutions de durée différentes sont comparées entre elles, la méthode de l'annuité équivalente repose sur les hypothèses suivantes :\n\t 1) les services obtenus à l'aide des solutions sont requis pour une durée correspondant au plus petit commun multiple du nombre d'années ou plus ;\n\t 2) la solutions choisie pour le premier cycle de vie est reproduite de la même manière pour tous les autres cycles de vie ;\n\t 3) les estimations de flux monétaires sont les mêmes pour chaque cycle de vie.",
+                "La méthode AÉ s’applique à une variété d’études économiques en ingénierie : \n\t a) Remplacement d’immobilisations\n\t b) Analyses de rentabilité\n\t c) Décisions de fabriquer ou d’acheter\n\t d) Analyse des coûts de fabrication\n\t e)Analyse de la valeur économique ajoutée (VÉA)"
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "6.2 Le calcul du recouvrement du capital et de l’AÉ",
+              "text": [
+                "Pour toute solution économique, il faut déterminer ou estimer les valeurs suivantes :\n\t- Investissement initial – P\n\t- Valeur de récupération estimée – R\n\t- Durée de vie estimée – n\n\t- Taux d’intérêt – i % (normalement, le TRAM)\n\t- AÉ : Ce sont les montants annuels équivalents (décaissements seuls pour les solutions axées sur les services; décaissements et encaissements pour les solutions axées sur les revenus). Puisque cette somme correspond souvent aux CEA, l’estimation est déjà une valeur équivalente A.",
+                "Le recouvrement du capital (RC) est l’équivalent annualisé de l’investissement initial P et de la valeur future de récupération R pour n années à i %.",
+                "Il est important de connaître le coût annuel équivalent associé au coût de possession d’une immobilisation.",
+                "Ceci correspond au recouvrement du capital (RC).",
+                "On détermine le RC à partir de {P, R, i et n}.",
+                "La valeur du RC est un COÛT. Cette valeur porte donc un signe négatif.",
+                "RC = valeur équivalente annuelle représentant le « coût » supposé d’une immobilisation sur n années à i %, avec un coût initial P et une valeur de récupération R dans n années.",
+                "La valeur du RC n’inclut pas les charges d’exploitation annuelles (CEA) ou A.",
+                "AÉ = -RC - A",
+                "CALCUL DU RC POUR LES INVESTISSEMENTS AVEC VALEUR DE RÉCUPÉRATION",
+                "Méthode 1 : \n\t- P(A/P;i;n) − R(A/F;i;n)\n\t- RC = −[P(A/P;i;n) − R(A/F;i;n)]",
+                "Méthode 2",
+                "De la section 2.3 : \n\t- (A/F;i;n) = (A/P;i;n) – i\n\t- RC = −[P(A/P;i;n) − R[(A/P;i;n) - i]]\n\t- RC = −[(P − R)(A/P;i;n) + R(i)]",
+                "Le RC correspond au coût annuel lié à la possession d’un actif productif pendant n périodes de temps à un taux d’intérêt i % par période.",
+                "On peut dire que le RC est la somme minimale qu’un investissement doit rapporter à tous les cycles de n années pour permettre de recouvrer l’investissement initial à un taux de rendement de i %."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "6.3 L’évaluation de solutions possibles par l’analyse de l’AÉ",
+              "text": [
+                "En présence de solutions mutuellement exclusives, calculez l'annuité équivalente selon le taux de rendement acceptable minimum.\n\t- Une solution : AÉ >= 0, le taux de rendement acceptable minimum est atteint ou dépassé.\n\t- Deux ou plusieurs solutions : choisir la valeur de l'annuité équivalente qui correspond aux coûts les faibles ou aux revenus les plus élevés *valeur numérique la plus grande).",
+                "Si l’une des hypothèse décrite à la section 6.1 n’est pas acceptable pour une solutions analysée, il faut alors définir une période d’étude.",
+                "Les estimations des FM pour cette période d’étude sont alors converties en montant AÉ."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "6.4 L’AÉ d’un investissement permanent",
+              "text": [
+                "Lorsqu’un investissement n’a pas de fin définie (ou qu’il a une durée estimée très longue), on parle d’un investissement perpétuel ou permanent.",
+                "Si P correspond à la valeur actualisée du coût de l’investissement, la valeur de l’AÉ correspond à P fois i.",
+                "AÉ = A = P(i)",
+                "L’AÉ correspond au montant d’intérêt accumulé par P chaque année, à perpétuité. (Rappel : P = A/i)",
+                ""
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "6.4 Exemple",
+              "text": [
+                "Si le TRAM = 10%, quelle est la valeur annuelle équivalente de la série infinie de recettes annuelles suivante : 500$/an pendant 10 ans et 1000$ par année subséquente.",
+                "AÉ(10%) = 500$ + (500$ / 0.1)(P/F, 10%, 10)(0.1) = 692.77$"
+              ],
+              "illustrations": [
+                ""
+              ]
+            }
+          ]},
+        {
+          "title": "Chapitre 7 - L'analyse du taux de rendement interne d'une solution",
+          "index": 0,
+          "contents": [
+            {
+              "title": "Introduction",
+              "text": [
+                "Méthode TR ou TRI (taux de rendement interne)",
+                "Correspond au taux d’intérêt versé sur le solde impayé d’un emprunt ou au taux d’intérêt obtenu sur le solde non recouvré d’un investissement, de telle sorte que le dernier versement ramène la valeur finale précisément à 0.",
+                "On détermine le TRI (i*) à partir d’une relation de la valeur actualisée nette (VAN) ou de l’annuité équivalente (AÉ).",
+                "Le taux ainsi déterminé est la valeur i*."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "7.1 Interprétation du TRI",
+              "text": [
+                "Le TRI (i*) est le taux d’intérêt obtenu ou exigé sur le SOLDE NON RECOUVRÉ d’un prêt ou d’un investissement",
+                "Le TRI n’est pas le taux d’intérêt obtenu sur le montant initial d’un prêt ou d’un investissement (P).",
+                "La valeur de i* est comparée au TRAM : \n\t- Si i* ≥ TRAM, l’investissement est économiquement recommandable.\n\t- Si i* < TRAM, l’investissement n’est pas économiquement recommandable.",
+                "(voir le PPT pages 5 à 7)",
+                "Les valeurs de i* doivent correspondre à : -100% < i <= ∞",
+                "1) Une valeur de i* = −100 % indique la perte totale du capital",
+                "2) On peut obtenir une valeur de i* négative (faisable), mais jamais inférieure à –100 %.",
+                "3) Toutes les valeurs de i* supérieures à 0 indiquent un rendement positif."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "7.2 Calcul de i* à partir d’une relation VAN ou AÉ",
+              "text": [
+                "On formule une équation de TRI à partir d’une relation de VAN ou d’AÉ égale à 0.",
+                "0 = −VA décaissements + VA encaissements = −VAD + VAE",
+                "0 = −AÉ décaissements + AÉ encaissements = −AÉD + AÉE",
+                "Si i* >= TRAM, la solution est économiquement recommandable.",
+                "Si i* < TRAM, le contraire.",
+                "Trouver i* par essai et erreur : Résolution manuelle avec une relation VAN",
+                "1) Tracer un diagramme des flux monétaires.",
+                "2) Formuler l’équation d’équivalence VAN égale à 0.",
+                "3) Choisir des valeurs de i et résoudre l’équation VAN.",
+                "4) Répéter pour d’autres valeurs de i jusqu’à ce que l’équation soit équilibrée, c’est-à-dire égale à 0.",
+                "5) Dans certains cas, il faut procéder à une interpolation pour trouver la valeur approximative de i*.",
+                "À l’étape 3) , il est préférable de trouver une valeur assez reprochée de la bonne réponse dès le premier essai.\n\t- Ignorons la valeur temporelle de l’argent et convertir les décaissements en montants uniques (P ou F) ou en montants uniformes.\n\t- Convertir tous les encaissements en valeurs uniques ou uniformes.\n\t- Une fois les décaissements et les encaissements combinés selon un format P/F, P/A ou A/F, utiliser les tables de taux pour trouver le taux approximatif qui permettra de satisfaire à la valeur de P/F, P/A ou A/F. Le taux obtenu sera alors une bonne approximation pour le premier essai.",
+                "Il est important de noter que ce taux obtenu ne représente qu’une estimation du véritable TRI, puisque la valeur temporelle de l’argent a été ignorée.",
+                "Exemple : \n\t- Supposons un investissement de 1 000 $ à n = 0.\n\t- Il génère 500 $ à n = 3 et 1 500 $ à n = 5.\n\t- Quel est le TRI de ce projet.",
+                "Solution: 1000 = 500(P/F;i*;3) +1 500(P/F;i*;5).",
+                "Il faut résoudre l’équation VAN ci-dessus par essai et erreur.\n\t- S’ajuster en conséquence\n\t- Regrouper\n\t- Interpoler\n\t- i* est approximativement de 16,9 % par année sur le solde non recouvré de l’investissement.",
+                "(voir les exemples sur le PPT pages 14 à 19 puis pages 20 à 23)"
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "7.3 TRI : Précautions à prendre",
+              "text": [
+                "Appliquée correctement, la méthode du TRI mène toujours à une bonne décision et doit être cohérente avec les méthodes VAN, AÉ ou VC.",
+                "Toutefois, il faut tenir compte de certaines hypothèses et difficultés propres à l’analyse du TRI :",
+                "1) Plusieurs valeur de i*. (Ce problème est abordé dans la prochaine section).",
+                "2) Avec la méthode TRI, l’hypothèse de réinvestissement est à i*, et non au TRAM (comme c’est le cas avec VA, AE et VC). Si le TRAM est loin de la valeur de i*, il faut utiliser le taux composé (section 7.5), car cette hypothèse est irréaliste.",
+                "3) Complexité des calculs",
+                "4) Démarche adaptée aux solutions multiples: Chapitre 8 – analyse différentielle",
+                "En conclusion : … dans le contexte d’une étude en économie d’ingénierie, il est préférable d’utiliser la méthode de l’analyse de la VAN ou de l’AÉ  selon un TRAM donné, plutôt qu’une analyse du TRI",
+                "L’approche du TRI demeure quand même une approche qui est couramment utilisée.",
+                "Elle est aussi facile à comprendre intuitivement."
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+            {
+              "title": "7.4 TRI Multiples",
+              "text": [
+                "Dans certains cas d’analyse à l’aide de la méthode TRI, on peut trouver de multiples valeurs de i* pour lesquelles VAN = 0.",
+                "Si les séries subissent plusieurs changements de signes : Séries non conventionnelles.",
+                "Rappel : Équation pour déterminer le TRI est :",
+                "VAN = 0 = FMN_0 + FMN_1 (1 + i)^(-1) + … + FMN_n(1 + i)^(-n)",
+                "X = (1 + i)^(-1)",
+                "0 = FMN_0 + FMN_1 x^1 + FMN_1 x^2 + … + FMN_n x^n",
+                "L’équation d’un polynôme de degré n.",
+                "Règle de Descartes : Nombre de racines positives pour x.",
+                "Il est possible de prédire la possibilité qu’il existe plusieurs valeurs de i*.",
+                "On peut faire deux tests l’un à la suite de l’autre avant d’exécuter l’analyse.\n\t - Règle des signes (de Descartes).\n\t - Le test des signes des flux monétaires cumulatifs (Critère de Norstrom).",
+                "1. Règle des signes des FM nets\n\t- Le nombre total de valeurs réelles de i* est toujours inférieur ou égal au nombre de changements de signes dans la série initiale de FMN\n\t- Si le test de Descartes montre qu’il y a la possibilité de TRI multiples, on passe ensuite au test de Norstrom pour éliminer la possibilité de TRI multiple",
+                "2. Règle des signes des FM nets cumulatifs\n\t- À partir de la série des FMN cumulatifs de l’investissement, compter le nombre de changements de signes. Permets de savoir s’il n’y a qu’un seul i*.",
+                "Réaliser les deux tests pour vérifier une valeur i* > 0.",
+                "Test 2 : Condition suffisante, mais non nécessaire, pour qu’il y ait une seule valeur positive de i* :\n\t- Le montant initial porte un signe négatif.\n\t- La valeur du FMC à l’an n (dernier montant cumulatif) > 0.\n\t- Il y a un seul changement de signe dans la série de FMC.\n\t- St = flux monétaires cumulatifs pour la période t.",
+                "Si le montant initial est négatif S0, et qu’il y a par la suite qu’un seul changement de signe, alors il n’existe qu’un seul i* unique positif."
+                "(voir les exemples des pages 34 à 43)"
+              ],
+              "illustrations": [
+                ""
+              ]
+            },
+        }
         {
           "title": "Liste de définitions - Chapitre 1",
           "index": 0,
