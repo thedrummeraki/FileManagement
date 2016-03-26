@@ -4789,6 +4789,89 @@
 			]
 		}
 	]
-}
+},
+    {
+    	"title": "Recettes Aki",
+    	"yanclajemben": "gPalRJmnXRXmiThR",
+    	"code": "AKI",
+    	"language":"bi",
+    	"description": "Recipes for Akinyele Akintola-Febrissy. This course in password protected.",
+    	"chapters": [
+    	   {
+    	      "title": "Baguettes françaises maison",
+    	      "index": 0,
+    	      "contents": [
+    	         {
+    	            "title": "Ingrédients",
+    	            "text": [
+    	               "Pour la Poolish...",
+    	               "1 litre (4 tasses) de farine tout usage non blanchie (500 g)",
+    	               "575 ml (2.33_ tasses) d'eau tiède",
+    	               "5 ml (1 c. à thé) de levure instantanée (4 g)",
+    	               "Pour la pâte...",
+    	               "150 ml (2/3 tasse) d'eau tiède",
+    	               "1 litre (4 tasses) de farine tout usage non blanchie (500 g)",
+    	               "12.5 ml (2.5 c. à thé) de sel",
+    	               "5 ml (1 c. à thé) de levure instantanée (4 g)"
+    	            ],
+    	      	    "illustrations": [""]
+    	         },
+    	         {
+    	            "title": "Préparation",
+    	            "text": [
+    	               "POOLISH",
+    	               "01) Dans un grand bol, mélanger au fouet tous les ingrédients de la poolish jusqu'à consistance lisse. Recouvrir le bol d'un linge humide et laisser reposer dans un endroit tiède environ 2 heures ou jusqu'à ce qu'elle ait doublé de volume.",
+    	               "PATE",
+    	               "02) Verser délicatement l'eau tiède sur le pourtour du bol contenant la poolish. Ajouter la farine, le sel et la levure. Bien mélanger avec les mains ou à la cuillère de bois. Déposer la pâte sur un plan de travail légèrement enfariné et pétrir 1 minute. Former une boule et la déposer dans le bol propre et légèrement huilé. Couvrir la pâte d'un linge humide et laisser reposer à la température de la pièce 20 minutes.",
+    	               "03) Donner à la pâte un léger rabat, c'est-à-dire étirer la pâte légèrement pour pouvoir la replier en 4. Remettre la pâte dans le bol. Recouvrir d'un linge humide et laisser reposer encore 20 minutes. Répéter l'opération deux autres fois et laisser reposer 2 heures dans le bol recouvert du linge humide.",
+    	               "04) Déposer la pâte sur le plan de travail légèrement enfariné et la diviser en 4 ou 6 morceaux égaux. Sans trop les manipuler, façonner chaque morceau en une forme ovale. Couvrir d'un linge humide et laisser reposer 20 minutes.",
+    	               "05) Tapisser deux plaques de cuisson de papier parchemin.",
+    	               "06) Prendre un morceau de pâte à la fois et le déposer sur le plan de travail légèrement enfariné. Enrouler la pâte sur elle-même tout en l'allongeant de manière à obtenir un rouleau d'environ 38 cm (15 po) de longueur. Répéter l'opération avec les autres morceaux et déposer 2 à 3 baguettes par plaque en laissant 8 cm (3 po) d'espace entre chacune. Recouvrir d'un linge humide et placer les plaques dans un endroit tiède de 1 h à 1 h 30.",
+    	               "07) Placer la grille au centre du four. Déposer une poêle en fonte dans le bas du four.",
+    	               "08) Préchauffer le four à 250 °C (500 °F).",
+    	               "09) À l'aide d'une lame de rasoir, faire des incisions à la diagonale à la surface de la baguette.",
+    	               "10) Verser 125 ml (1/2 tasse) d'eau chaude dans la poêle de fonte de manière à embuer le four. Enfourner une plaque immédiatement et cuire de 15 à 20 minutes en prenant soin d'enlever la poêle 5 minutes avant la fin de la cuisson.",
+    	               "11) Remettre la poêle dans le four avec l'eau chaude et cuire les autres baguettes de la même façon.",
+    	               "12) Laisser refroidir les baguettes sur une grille pour qu'elles puissent bien respirer."
+    	            ],
+    	      	    "illustrations": [""]
+    	         },
+    	         {
+    	            "title": "Note additionnelle",
+    	            "text": [
+    	               "Dans une recette, lorsqu'on dit de faire lever une pâte dans un endroit tiède, ce peut être sur le dessus d'un radiateur, proche d'un feu de foyer, le four éteint avec l'ampoule allumée et un bol rempli d'eau chaude (donne la chaleur voulue et l'humidité souhaitée). Parfois, lorsque le four est occupé, j'utilise aussi le four à micro-ondes et j'y place un bol d'eau chaude.",
+    	               "On peut ajouter des raisins secs, des pépites de chocolat, des olives noires hachées ou du saucisson à la pâte à la fin du pétrissage. Calculez environ 750 ml (3 tasses) pour la recette, mais on peut ne faire qu'une partie des baguettes avec garniture.",
+    	               "Pains sur poolish : cette méthode consiste à laisser fermenter pendant quelques heures une partie de la farine avec une petite quantité de levure et suffisamment d'eau pour que cette « poolish » soit liquide. On l'ajoute à la pâte au moment du pétrissage, avec le reste de farine et un peu de levure. Cette longue fermentation avec très peu de levure donne un excellent goût et permet une bonne conservation du pain."
+    	            ],
+    	      	    "illustrations": [""]
+    	         },
+    	         {
+    	            "title": "Sources",
+    	            "text": [
+    	               "Baguettes françaises maison selon Riccardo Arnoult de la boulangerie L'Amour du pain Recettes | Ricardo",
+    	               "Autheur(e)(s) inconnu(e)(s).",
+    	               "Date de publication inconnue.",
+    	               "http://www.ricardocuisine.com/recettes/402-baguettes-francaises-maison-selon-riccardo-arnoult-de-la-boulangerie-l-amour-du-pain"
+    	            ],
+    	      	    "illustrations": [""]
+    	         }
+    	      ]
+    	   },
+    	   {
+    	      "title": "",
+    	      "index": 0,
+    	      "contents": [
+    	         {
+    	            "title": "",
+    	            "text": [
+    	               "",
+    	               ""
+    	            ],
+    	      	    "illustrations": [""]
+    	         }
+    	      ]
+    	   }
+    	]
+    }
   ]
 }
